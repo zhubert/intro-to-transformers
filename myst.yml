@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: "AI on AI: Understanding AI from the Inside Out"
+  title: "An Introduction to Transformers"
   authors:
     - name: "Zack Hubert"
   exclude:
@@ -10,7 +10,7 @@ project:
     - .git
     - README.md
     - STYLEGUIDE.md
-  github: zhubert/ai-on-ai
+  github: zhubert/intro-to-transformers
   toc:
     - file: intro.md
     - title: "Understanding Gradients"

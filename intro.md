@@ -1,6 +1,6 @@
-# AI on AI
+# An Introduction to Transformers
 
-**Understanding AI from the Inside Out**
+**Understanding Modern AI from the Inside Out**
 
 This book teaches you how modern AI systems work by building them yourself. No black boxes—just the actual math and code that powers language models and image generators.
 
