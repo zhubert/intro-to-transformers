@@ -1,0 +1,13 @@
+{
+  "name": "ai-on-ai",
+  "version": "0.1.0",
+  "description": "Understanding AI from the Inside Out - Educational notebooks on transformers and diffusion models",
+  "private": true,
+  "scripts": {
+    "start": "myst start",
+    "build": "myst build --html"
+  },
+  "devDependencies": {
+    "mystmd": "^1.7.0"
+  }
+}

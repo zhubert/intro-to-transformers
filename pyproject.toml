@@ -1,0 +1,13 @@
+[project]
+name = "ai-on-ai"
+version = "0.1.0"
+description = "Understanding AI from the Inside Out - Educational notebooks on transformers and diffusion models"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "jupyter>=1.0",
+]
