@@ -1,7 +1,7 @@
 {
-  "name": "ai-on-ai",
+  "name": "intro-to-transformers",
   "version": "0.1.0",
-  "description": "Understanding AI from the Inside Out - Educational notebooks on transformers and diffusion models",
+  "description": "An Introduction to Transformers - Educational notebooks on transformers and diffusion models",
   "private": true,
   "scripts": {
     "start": "myst start",
