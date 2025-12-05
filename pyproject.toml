@@ -3,11 +3,17 @@ name = "ai-on-ai"
 version = "0.1.0"
 description = "Understanding AI from the Inside Out - Educational notebooks on transformers and diffusion models"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
-    "torch>=2.0",
-    "torchvision>=0.15",
+    "datasets>=4.0.0",
+    "tiktoken>=0.11.0",
+    "torch>=2.10.0.dev20251124",
+    "torchvision>=0.25.0.dev20251202",
+    "transformers>=4.30",
     "matplotlib>=3.7",
     "numpy>=1.24",
     "jupyter>=1.0",
 ]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/nightly/rocm7.1"

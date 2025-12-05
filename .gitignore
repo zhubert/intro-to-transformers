@@ -1,5 +1,9 @@
 # Build output
 _build/
+*.pt
+
+# Data files
+data/
 
 # Python
 __pycache__/
@@ -14,6 +18,7 @@ build/
 .venv/
 venv/
 .env
+.ipynb_checkpoints/
 
 # Node
 node_modules/
