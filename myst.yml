@@ -75,3 +75,5 @@ site:
   template: book-theme
   options:
     base_url: /intro-to-transformers
+    logo: intro.png
+    logo_dark: intro.png
