@@ -18,59 +18,59 @@ project:
         - file: understanding-gradients/00_introduction.ipynb
           title: "Introduction"
         - file: understanding-gradients/01_tokenization_embeddings.ipynb
-          title: "1. Tokenization & Embeddings"
+          title: "Tokenization & Embeddings"
         - file: understanding-gradients/02_qkv_projections.ipynb
-          title: "2. QKV Projections"
+          title: "QKV Projections"
         - file: understanding-gradients/03_attention.ipynb
-          title: "3. Attention"
+          title: "Attention"
         - file: understanding-gradients/04_multi_head.ipynb
-          title: "4. Multi-Head Attention"
+          title: "Multi-Head Attention"
         - file: understanding-gradients/05_feedforward.ipynb
-          title: "5. Feed-Forward Network"
+          title: "Feed-Forward Network"
         - file: understanding-gradients/06_layer_norm.ipynb
-          title: "6. Layer Normalization"
+          title: "Layer Normalization"
         - file: understanding-gradients/07_loss.ipynb
-          title: "7. Cross-Entropy Loss"
+          title: "Cross-Entropy Loss"
         - file: understanding-gradients/08_grad_loss.ipynb
-          title: "8. Loss Gradients"
+          title: "Loss Gradients"
         - file: understanding-gradients/09_grad_backprop.ipynb
-          title: "9. Backpropagation"
+          title: "Backpropagation"
         - file: understanding-gradients/10_optimizer.ipynb
-          title: "10. AdamW Optimizer"
+          title: "AdamW Optimizer"
     - title: "Building a Transformer"
       children:
         - file: building-a-transformer/00_introduction.ipynb
           title: "Introduction"
         - file: building-a-transformer/01_embeddings.ipynb
-          title: "1. Embeddings & Positions"
+          title: "Embeddings & Positions"
         - file: building-a-transformer/02_attention.ipynb
-          title: "2. Scaled Dot-Product Attention"
+          title: "Scaled Dot-Product Attention"
         - file: building-a-transformer/03_multi_head_attention.ipynb
-          title: "3. Multi-Head Attention"
+          title: "Multi-Head Attention"
         - file: building-a-transformer/04_feedforward.ipynb
-          title: "4. Feed-Forward Networks"
+          title: "Feed-Forward Networks"
         - file: building-a-transformer/05_transformer_block.ipynb
-          title: "5. Transformer Block"
+          title: "Transformer Block"
         - file: building-a-transformer/06_complete_model.ipynb
-          title: "6. Complete Model"
+          title: "Complete Model"
         - file: building-a-transformer/07_training.ipynb
-          title: "7. Training at Scale"
+          title: "Training at Scale"
         - file: building-a-transformer/08_kv_cache.ipynb
-          title: "8. KV-Cache"
+          title: "KV-Cache"
         - file: building-a-transformer/09_interpretability.ipynb
-          title: "9. Interpretability"
+          title: "Interpretability"
     - title: "From Noise to Images"
       children:
         - file: from-noise-to-images/01_flow_matching_basics.ipynb
-          title: "1. Flow Matching"
+          title: "Flow Matching"
         - file: from-noise-to-images/02_diffusion_transformer.ipynb
-          title: "2. Diffusion Transformer"
+          title: "Diffusion Transformer"
         - file: from-noise-to-images/03_class_conditioning.ipynb
-          title: "3. Class Conditioning"
+          title: "Class Conditioning"
         - file: from-noise-to-images/04_text_conditioning.ipynb
-          title: "4. Text Conditioning"
+          title: "Text Conditioning"
         - file: from-noise-to-images/05_latent_diffusion.ipynb
-          title: "5. Latent Diffusion"
+          title: "Latent Diffusion"
 site:
   template: book-theme
   options:
