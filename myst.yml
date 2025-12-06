@@ -73,3 +73,5 @@ project:
           title: "5. Latent Diffusion"
 site:
   template: book-theme
+  options:
+    base_url: /intro-to-transformers
