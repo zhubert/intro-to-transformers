@@ -19,6 +19,7 @@ build/
 venv/
 .env
 .ipynb_checkpoints/
+my_finetuned_model/
 
 # Node
 node_modules/
