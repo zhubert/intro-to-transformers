@@ -1,0 +1,14 @@
+/* Fix search box blue tint in dark mode */
+.dark .myst-search-bar {
+  background-color: #262626 !important;
+  border-color: #404040 !important;
+}
+
+.dark .myst-search-bar:hover {
+  background-color: #303030 !important;
+}
+
+/* Fix modal backdrop blue tint */
+.bg-\[\#656c85cc\] {
+  background-color: rgba(38, 38, 38, 0.8) !important;
+}
