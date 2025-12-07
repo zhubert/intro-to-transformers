@@ -4,7 +4,7 @@
 
 This is an educational resource that teaches how modern AI systems work by building them yourself. No black boxes—just the actual math and code that powers language models and image generators.
 
-📖 **[Read Online](https://zhubert.github.io/intro-to-transformers/)**
+📖 **[Read Online](https://www.zhubert.com/intro-to-transformers/)**
 
 ## What's Inside
 
