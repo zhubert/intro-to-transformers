@@ -3,6 +3,10 @@ project:
   title: "An Introduction to Transformers"
   authors:
     - name: "Zack Hubert"
+      url: "https://www.zhubert.com"
+      github: "zhubert"
+    - name: "Claude Code"
+      url: "https://www.claude.com/product/claude-code"
   exclude:
     - .venv
     - _build
@@ -59,6 +63,60 @@ project:
           title: "KV-Cache"
         - file: building-a-transformer/09_interpretability.ipynb
           title: "Interpretability"
+    - title: "Fine-Tuning a Transformer"
+      children:
+        - file: fine-tuning-a-transformer/00_introduction.ipynb
+          title: "Introduction"
+        - file: fine-tuning-a-transformer/01_why_post_training.ipynb
+          title: "Why Post-Training"
+        - file: fine-tuning-a-transformer/02_project_overview.ipynb
+          title: "Project Overview"
+        - file: fine-tuning-a-transformer/03_sft_introduction.ipynb
+          title: "SFT Introduction"
+        - file: fine-tuning-a-transformer/04_sft_formatting.ipynb
+          title: "Instruction Formatting"
+        - file: fine-tuning-a-transformer/05_sft_loss_masking.ipynb
+          title: "Loss Masking"
+        - file: fine-tuning-a-transformer/06_sft_training.ipynb
+          title: "SFT Training"
+        - file: fine-tuning-a-transformer/07_sft_lora.ipynb
+          title: "LoRA"
+        - file: fine-tuning-a-transformer/08_reward_introduction.ipynb
+          title: "Reward Modeling"
+        - file: fine-tuning-a-transformer/09_reward_preference_data.ipynb
+          title: "Preference Data"
+        - file: fine-tuning-a-transformer/10_reward_training.ipynb
+          title: "Reward Training"
+        - file: fine-tuning-a-transformer/11_reward_evaluation.ipynb
+          title: "Reward Evaluation"
+        - file: fine-tuning-a-transformer/12_rlhf_introduction.ipynb
+          title: "RLHF Introduction"
+        - file: fine-tuning-a-transformer/13_rlhf_ppo.ipynb
+          title: "PPO Algorithm"
+        - file: fine-tuning-a-transformer/14_rlhf_kl_penalty.ipynb
+          title: "KL Penalty"
+        - file: fine-tuning-a-transformer/15_rlhf_dynamics.ipynb
+          title: "Training Dynamics"
+        - file: fine-tuning-a-transformer/16_rlhf_reference.ipynb
+          title: "Reference Models"
+        - file: fine-tuning-a-transformer/17_dpo_introduction.ipynb
+          title: "DPO Introduction"
+        - file: fine-tuning-a-transformer/18_dpo_vs_rlhf.ipynb
+          title: "DPO vs RLHF"
+        - file: fine-tuning-a-transformer/19_dpo_loss.ipynb
+          title: "DPO Loss"
+        - file: fine-tuning-a-transformer/20_dpo_training.ipynb
+          title: "DPO Training"
+        - file: fine-tuning-a-transformer/21_advanced_memory.ipynb
+          title: "Memory Optimization"
+        - file: fine-tuning-a-transformer/22_advanced_hyperparams.ipynb
+          title: "Hyperparameter Tuning"
+        - file: fine-tuning-a-transformer/23_advanced_evaluation.ipynb
+          title: "Evaluation Metrics"
+        - file: fine-tuning-a-transformer/24_advanced_pitfalls.ipynb
+          title: "Common Pitfalls"
+        - file: fine-tuning-a-transformer/25_try_it.ipynb
+          title: "Try It Yourself"
     - title: "From Noise to Images"
       children:
         - file: from-noise-to-images/01_flow_matching_basics.ipynb

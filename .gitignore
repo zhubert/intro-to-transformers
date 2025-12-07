@@ -19,6 +19,8 @@ build/
 venv/
 .env
 .ipynb_checkpoints/
+my_finetuned_model/
+sft_output/
 
 # Node
 node_modules/
