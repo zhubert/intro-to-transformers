@@ -14,5 +14,5 @@
 }
 
 .myst-fm-block-header {
-  display: none;
+  display: none !important;
 }
