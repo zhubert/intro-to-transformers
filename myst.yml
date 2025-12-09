@@ -135,4 +135,5 @@ site:
     base_url: /intro-to-transformers
     logo: intro.png
     logo_dark: intro.png
+    favicon: favicon.ico
     style: ./custom.css
