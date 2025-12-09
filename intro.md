@@ -61,7 +61,7 @@ How weights actually get updated
 
 ### Building a Transformer
 
-This is our transformer. There are many like it, but this one is ours. This section shows you how to build a complete GPT-style transformer in PyTorch. All that heavy lifting we did in the last section is now hidden behind simple `backwards()`-like calls. It covers the architecture that powers modern language models (circa 2023), from embeddings to interpretability tools. In the end, you'll have a new toy.
+This is our transformer. There are many like it, but this one is ours. This section shows you how to build a complete GPT-style transformer in PyTorch. All that heavy lifting we did in the last section is now hidden behind simple `backward()`-like calls. It covers the architecture that powers modern language models (circa 2023), from embeddings to interpretability tools. In the end, you'll have a new toy.
 
 ::::{grid} 1 1 2 2
 
