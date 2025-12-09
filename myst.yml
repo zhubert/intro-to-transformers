@@ -137,6 +137,6 @@ site:
     logo_dark: intro.png
     favicon: favicon.ico
     style: ./custom.css
-    hide_github: true
-    hide_edit_this_page: true
-    hide_downloads: true
+    edit_url: null
+    source_url: null
+    hide_myst_branding: true
