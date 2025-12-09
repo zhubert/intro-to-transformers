@@ -1,10 +1,5 @@
 # An Introduction to Transformers
 
-::::{figure} intro.png
-:width: 300px
-:align: center
-::::
-
 :::{pull-quote}
 **Understanding Modern AI from the Inside Out**
 
@@ -17,7 +12,7 @@ This book teaches you how modern AI systems work by building them yourself. No b
 
 ### Understanding Gradients
 
-Calculate a complete transformer forward and backward pass **by hand**. Using only basic Python (no NumPy, no PyTorch), you'll compute every matrix multiplication, every activation function, every gradient. By the end, you'll understand transformers not because someone explained them in abstract terms, but because you calculated every operation yourself.
+Calculate a complete transformer forward and backward pass **by hand**. Using only basic Python (no NumPy, no PyTorch), you'll compute every matrix multiplication, every activation function, every gradient. By the end, you'll understand transformers not because someone explained them in abstract terms, but because you calculated every operation yourself. Feel free to skip this one if you want to be pragmatic.
 
 ::::{grid} 1 1 2 2
 
@@ -66,7 +61,7 @@ How weights actually get updated
 
 ### Building a Transformer
 
-Build a complete GPT-style transformer in PyTorch. This section covers the architecture that powers modern language models, from embeddings to interpretability tools.
+Not exactly unique, but this section shows you how to build a complete GPT-style transformer in PyTorch. It covers the architecture that powers modern language models (circa 2023), from embeddings to interpretability tools.
 
 ::::{grid} 1 1 2 2
 
@@ -110,7 +105,7 @@ Logit lens, attention analysis, induction heads
 
 ### Fine-Tuning a Transformer
 
-Take a pre-trained model and adapt it to follow instructions. This section covers SFT, reward modeling, RLHF with PPO, and DPO—the techniques that turn base models into assistants.
+Fine-tuning really should be called "necessary tuning" because the output of the previous section doesn't look anything like the GPT-style assistants you are used to. As such, this section teaches a baseline pre-trained model to follow instructions. We go into detail on SFT, reward modeling, RLHF with PPO, DPO, and other acronyms we will explain later—the techniques that turn base models into safe assistants.
 
 ::::{grid} 1 1 2 2
 
@@ -139,7 +134,7 @@ Direct preference optimization without RL
 
 ### From Noise to Images
 
-Learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model.
+Neat. But what if we aren't generating text but want a different medium? Here we will learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model (you'll know what that means later).
 
 ::::{grid} 1 1 2 2
 
@@ -168,28 +163,3 @@ CLIP embeddings, cross-attention
 VAE compression, scaling to larger images
 :::
 ::::
-
----
-
-## Philosophy
-
-::::{grid} 1 1 3 3
-
-:::{grid-item-card} No Hand-Waving
-Every operation is explicit.
-:::
-
-:::{grid-item-card} No Magic
-You see exactly what the computer sees.
-:::
-
-:::{grid-item-card} No Shortcuts
-Understanding comes from doing the work.
-:::
-::::
-
-:::{pull-quote}
-The architecture that powers GPT, Claude, Stable Diffusion, and other frontier models isn't beyond comprehension. It's just matrix multiplications, attention mechanisms, and optimization—repeated at scale.
-
-**Let's see how it works.**
-:::

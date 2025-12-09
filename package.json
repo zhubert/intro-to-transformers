@@ -4,7 +4,7 @@
   "description": "An Introduction to Transformers - Educational notebooks on transformers and diffusion models",
   "private": true,
   "scripts": {
-    "start": "myst start",
+    "start": "HOST=0.0.0.0 myst start --keep-host",
     "build": "myst build --html"
   },
   "devDependencies": {
