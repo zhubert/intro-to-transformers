@@ -1,9 +1,9 @@
 # An Introduction to Transformers
 
 :::{pull-quote}
-**Understanding Modern AI from the Inside Out**
+**Understanding Transformers from the Inside Out**
 
-This book teaches you how modern AI systems work by building them yourself. No black boxes—just the actual math and code that powers language models and image generators.
+This book teaches you how fairly modern AI systems work by building miniature versions of them yourself. I don't want to hand wave anything, because I'm learning this as we go too. Real math, straightforward code...that's the goal.
 :::
 
 ## What You'll Find Here
@@ -12,7 +12,7 @@ This book teaches you how modern AI systems work by building them yourself. No b
 
 ### Understanding Gradients
 
-Calculate a complete transformer forward and backward pass **by hand**. Using only basic Python (no NumPy, no PyTorch), you'll compute every matrix multiplication, every activation function, every gradient. By the end, you'll understand transformers not because someone explained them in abstract terms, but because you calculated every operation yourself. Feel free to skip this one if you want to be pragmatic.
+Using only basic Python (no NumPy, no PyTorch), we'll compute every matrix multiplication, every activation function, every gradient. If you want to be pragmatic, you can skip this one and go to the next section. But if you want to reach for glory which is meticulous mathematical matrix multiplications, then get ready to calculate!
 
 ::::{grid} 1 1 2 2
 
@@ -61,7 +61,7 @@ How weights actually get updated
 
 ### Building a Transformer
 
-Not exactly unique, but this section shows you how to build a complete GPT-style transformer in PyTorch. It covers the architecture that powers modern language models (circa 2023), from embeddings to interpretability tools.
+This is our transformer. There are many like it, but this one is ours. This section shows you how to build a complete GPT-style transformer in PyTorch. All that heavy lifting we did in the last section is now hidden behind simple `backwards()`-like calls. It covers the architecture that powers modern language models (circa 2023), from embeddings to interpretability tools. In the end, you'll have a new toy.
 
 ::::{grid} 1 1 2 2
 
@@ -105,7 +105,7 @@ Logit lens, attention analysis, induction heads
 
 ### Fine-Tuning a Transformer
 
-Fine-tuning really should be called "necessary tuning" because the output of the previous section doesn't look anything like the GPT-style assistants you are used to. As such, this section teaches a baseline pre-trained model to follow instructions. We go into detail on SFT, reward modeling, RLHF with PPO, DPO, and other acronyms we will explain later—the techniques that turn base models into safe assistants.
+Fine-tuning really should be called "necessary tuning" because the output of the previous section doesn't look anything like the GPT-style assistants we are used to. As such, this section teaches a baseline pre-trained model to follow instructions. We go into detail on SFT, reward modeling, RLHF with PPO, DPO, and other acronyms we will explain later, the techniques that turn base models into safer assistants.
 
 ::::{grid} 1 1 2 2
 
@@ -134,7 +134,7 @@ Direct preference optimization without RL
 
 ### From Noise to Images
 
-Neat. But what if we aren't generating text but want a different medium? Here we will learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model (you'll know what that means later).
+But what if we aren't generating text? Here we will learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model (you'll know what that means later).
 
 ::::{grid} 1 1 2 2
 
