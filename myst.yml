@@ -131,10 +131,11 @@ project:
           title: "Latent Diffusion"
 site:
   template: book-theme
+  parts:
+    primary_sidebar_footer: ./empty.md
   options:
     base_url: /intro-to-transformers
     logo: intro.png
     logo_dark: intro.png
     favicon: favicon.ico
     style: ./custom.css
-    hide_myst_branding: true
