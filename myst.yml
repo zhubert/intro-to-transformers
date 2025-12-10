@@ -17,140 +17,215 @@ project:
   github: zhubert/intro-to-transformers
   toc:
     - file: intro.md
-    - title: "Understanding Gradients"
+    - file: understanding-gradients/intro.md
+      title: "Understanding Gradients"
+      url: understanding-gradients
       children:
         - file: understanding-gradients/00_introduction.ipynb
           title: "Introduction"
+          url: understanding-gradients/introduction
         - file: understanding-gradients/01_tokenization_embeddings.ipynb
           title: "Tokenization & Embeddings"
+          url: understanding-gradients/tokenization-embeddings
         - file: understanding-gradients/02_qkv_projections.ipynb
           title: "QKV Projections"
+          url: understanding-gradients/qkv-projections
         - file: understanding-gradients/03_attention.ipynb
           title: "Attention"
+          url: understanding-gradients/attention
         - file: understanding-gradients/04_multi_head.ipynb
           title: "Multi-Head Attention"
+          url: understanding-gradients/multi-head-attention
         - file: understanding-gradients/05_feedforward.ipynb
           title: "Feed-Forward Network"
+          url: understanding-gradients/feedforward
         - file: understanding-gradients/06_layer_norm.ipynb
           title: "Layer Normalization"
+          url: understanding-gradients/layer-norm
         - file: understanding-gradients/07_loss.ipynb
           title: "Cross-Entropy Loss"
+          url: understanding-gradients/loss
         - file: understanding-gradients/08_grad_loss.ipynb
           title: "Loss Gradients"
+          url: understanding-gradients/loss-gradients
         - file: understanding-gradients/09_grad_backprop.ipynb
           title: "Backpropagation"
+          url: understanding-gradients/backpropagation
         - file: understanding-gradients/10_optimizer.ipynb
           title: "AdamW Optimizer"
-    - title: "Building a Transformer"
+          url: understanding-gradients/adamw-optimizer
+    - file: building-a-transformer/intro.md
+      title: "Building a Transformer"
+      url: building-a-transformer
       children:
         - file: building-a-transformer/00_introduction.ipynb
           title: "Introduction"
+          url: building-a-transformer/introduction
         - file: building-a-transformer/01_embeddings.ipynb
           title: "Embeddings & Positions"
+          url: building-a-transformer/embeddings
         - file: building-a-transformer/02_attention.ipynb
           title: "Scaled Dot-Product Attention"
+          url: building-a-transformer/attention
         - file: building-a-transformer/03_multi_head_attention.ipynb
           title: "Multi-Head Attention"
+          url: building-a-transformer/multi-head-attention
         - file: building-a-transformer/04_feedforward.ipynb
           title: "Feed-Forward Networks"
+          url: building-a-transformer/feedforward
         - file: building-a-transformer/05_transformer_block.ipynb
           title: "Transformer Block"
+          url: building-a-transformer/transformer-block
         - file: building-a-transformer/06_complete_model.ipynb
           title: "Complete Model"
+          url: building-a-transformer/complete-model
         - file: building-a-transformer/07_training.ipynb
           title: "Training at Scale"
+          url: building-a-transformer/training
         - file: building-a-transformer/08_kv_cache.ipynb
           title: "KV-Cache"
+          url: building-a-transformer/kv-cache
         - file: building-a-transformer/09_interpretability.ipynb
           title: "Interpretability"
-    - title: "Fine-Tuning a Transformer"
+          url: building-a-transformer/interpretability
+    - file: fine-tuning-a-transformer/intro.md
+      title: "Fine-Tuning a Transformer"
+      url: fine-tuning-a-transformer
       children:
         - file: fine-tuning-a-transformer/00_introduction.ipynb
           title: "Introduction"
+          url: fine-tuning-a-transformer/introduction
         - file: fine-tuning-a-transformer/01_why_post_training.ipynb
           title: "Why Post-Training"
+          url: fine-tuning-a-transformer/why-post-training
         - file: fine-tuning-a-transformer/02_project_overview.ipynb
           title: "Project Overview"
+          url: fine-tuning-a-transformer/project-overview
         - file: fine-tuning-a-transformer/03_sft_introduction.ipynb
           title: "SFT Introduction"
+          url: fine-tuning-a-transformer/sft-introduction
         - file: fine-tuning-a-transformer/04_sft_formatting.ipynb
           title: "Instruction Formatting"
+          url: fine-tuning-a-transformer/instruction-formatting
         - file: fine-tuning-a-transformer/05_sft_loss_masking.ipynb
           title: "Loss Masking"
+          url: fine-tuning-a-transformer/loss-masking
         - file: fine-tuning-a-transformer/06_sft_training.ipynb
           title: "SFT Training"
+          url: fine-tuning-a-transformer/sft-training
         - file: fine-tuning-a-transformer/07_sft_lora.ipynb
           title: "LoRA"
+          url: fine-tuning-a-transformer/lora
         - file: fine-tuning-a-transformer/08_reward_introduction.ipynb
           title: "Reward Modeling"
+          url: fine-tuning-a-transformer/reward-modeling
         - file: fine-tuning-a-transformer/09_reward_preference_data.ipynb
           title: "Preference Data"
+          url: fine-tuning-a-transformer/preference-data
         - file: fine-tuning-a-transformer/10_reward_training.ipynb
           title: "Reward Training"
+          url: fine-tuning-a-transformer/reward-training
         - file: fine-tuning-a-transformer/11_reward_evaluation.ipynb
           title: "Reward Evaluation"
+          url: fine-tuning-a-transformer/reward-evaluation
         - file: fine-tuning-a-transformer/12_rlhf_introduction.ipynb
           title: "RLHF Introduction"
+          url: fine-tuning-a-transformer/rlhf-introduction
         - file: fine-tuning-a-transformer/13_rlhf_ppo.ipynb
           title: "PPO Algorithm"
+          url: fine-tuning-a-transformer/ppo
         - file: fine-tuning-a-transformer/14_rlhf_kl_penalty.ipynb
           title: "KL Penalty"
+          url: fine-tuning-a-transformer/kl-penalty
         - file: fine-tuning-a-transformer/15_rlhf_dynamics.ipynb
           title: "Training Dynamics"
+          url: fine-tuning-a-transformer/training-dynamics
         - file: fine-tuning-a-transformer/16_rlhf_reference.ipynb
           title: "Reference Models"
+          url: fine-tuning-a-transformer/reference-models
         - file: fine-tuning-a-transformer/17_dpo_introduction.ipynb
           title: "DPO Introduction"
+          url: fine-tuning-a-transformer/dpo-introduction
         - file: fine-tuning-a-transformer/18_dpo_vs_rlhf.ipynb
           title: "DPO vs RLHF"
+          url: fine-tuning-a-transformer/dpo-vs-rlhf
         - file: fine-tuning-a-transformer/19_dpo_loss.ipynb
           title: "DPO Loss"
+          url: fine-tuning-a-transformer/dpo-loss
         - file: fine-tuning-a-transformer/20_dpo_training.ipynb
           title: "DPO Training"
+          url: fine-tuning-a-transformer/dpo-training
         - file: fine-tuning-a-transformer/21_advanced_memory.ipynb
           title: "Memory Optimization"
+          url: fine-tuning-a-transformer/memory-optimization
         - file: fine-tuning-a-transformer/22_advanced_hyperparams.ipynb
           title: "Hyperparameter Tuning"
+          url: fine-tuning-a-transformer/hyperparameter-tuning
         - file: fine-tuning-a-transformer/23_advanced_evaluation.ipynb
           title: "Evaluation Metrics"
+          url: fine-tuning-a-transformer/evaluation-metrics
         - file: fine-tuning-a-transformer/24_advanced_pitfalls.ipynb
           title: "Common Pitfalls"
+          url: fine-tuning-a-transformer/common-pitfalls
         - file: fine-tuning-a-transformer/25_try_it.ipynb
           title: "Try It Yourself"
-    - title: "Reasoning with Transformers"
+          url: fine-tuning-a-transformer/try-it
+    - file: reasoning-with-transformers/intro.md
+      title: "Reasoning with Transformers"
+      url: reasoning-with-transformers
       children:
         - file: reasoning-with-transformers/00_introduction.ipynb
           title: "Introduction"
+          url: reasoning-with-transformers/introduction
         - file: reasoning-with-transformers/01_chain_of_thought.ipynb
           title: "Chain-of-Thought"
+          url: reasoning-with-transformers/chain-of-thought
         - file: reasoning-with-transformers/02_self_consistency.ipynb
           title: "Self-Consistency"
+          url: reasoning-with-transformers/self-consistency
         - file: reasoning-with-transformers/03_tree_of_thoughts.ipynb
           title: "Tree of Thoughts"
+          url: reasoning-with-transformers/tree-of-thoughts
         - file: reasoning-with-transformers/04_process_reward_model.ipynb
           title: "Process Reward Models"
+          url: reasoning-with-transformers/process-reward-models
         - file: reasoning-with-transformers/05_best_of_n.ipynb
           title: "Best-of-N Verification"
+          url: reasoning-with-transformers/best-of-n
         - file: reasoning-with-transformers/06_mcts.ipynb
           title: "Monte Carlo Tree Search"
+          url: reasoning-with-transformers/mcts
         - file: reasoning-with-transformers/07_budget_forcing.ipynb
           title: "Budget Forcing"
+          url: reasoning-with-transformers/budget-forcing
         - file: reasoning-with-transformers/08_grpo.ipynb
           title: "GRPO Training"
+          url: reasoning-with-transformers/grpo
         - file: reasoning-with-transformers/09_distillation.ipynb
           title: "Reasoning Distillation"
-    - title: "From Noise to Images"
+          url: reasoning-with-transformers/distillation
+    - file: from-noise-to-images/intro.md
+      title: "From Noise to Images"
+      url: from-noise-to-images
       children:
         - file: from-noise-to-images/01_flow_matching_basics.ipynb
           title: "Flow Matching"
+          url: from-noise-to-images/flow-matching
         - file: from-noise-to-images/02_diffusion_transformer.ipynb
           title: "Diffusion Transformer"
+          url: from-noise-to-images/diffusion-transformer
         - file: from-noise-to-images/03_class_conditioning.ipynb
           title: "Class Conditioning"
+          url: from-noise-to-images/class-conditioning
         - file: from-noise-to-images/04_text_conditioning.ipynb
           title: "Text Conditioning"
+          url: from-noise-to-images/text-conditioning
         - file: from-noise-to-images/05_latent_diffusion.ipynb
           title: "Latent Diffusion"
+          url: from-noise-to-images/latent-diffusion
+    - file: outro.md
+      title: "What's Next"
+      url: whats-next
 site:
   template: book-theme
   parts:

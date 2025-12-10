@@ -21,7 +21,7 @@ Phase 4 adds:
 import torch
 import torch.nn as nn
 from torch import Tensor
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 
 @torch.no_grad()
