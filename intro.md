@@ -163,3 +163,57 @@ CLIP embeddings, cross-attention
 VAE compression, scaling to larger images
 :::
 ::::
+
+---
+
+### Reasoning with Transformers
+
+How do models like o1 and DeepSeek-R1 "think"? This section covers the techniques that make transformers reason: from simple prompting tricks to full reinforcement learning pipelines. We'll build chain-of-thought, tree search, and train our own reasoning models.
+
+::::{grid} 1 1 2 2
+
+:::{grid-item-card} Chain-of-Thought
+:link: reasoning-with-transformers/01_chain_of_thought.ipynb
+The simple prompt that started it all
+:::
+
+:::{grid-item-card} Self-Consistency
+:link: reasoning-with-transformers/02_self_consistency.ipynb
+Sample many reasoning paths, vote on the answer
+:::
+
+:::{grid-item-card} Tree of Thoughts
+:link: reasoning-with-transformers/03_tree_of_thoughts.ipynb
+Explore and backtrack through reasoning trees
+:::
+
+:::{grid-item-card} Process Reward Models
+:link: reasoning-with-transformers/04_process_reward_model.ipynb
+Score each reasoning step, not just the answer
+:::
+
+:::{grid-item-card} Best-of-N Verification
+:link: reasoning-with-transformers/05_best_of_n.ipynb
+Generate many solutions, pick the best
+:::
+
+:::{grid-item-card} Monte Carlo Tree Search
+:link: reasoning-with-transformers/06_mcts.ipynb
+The algorithm that powered AlphaGo, for language
+:::
+
+:::{grid-item-card} Budget Forcing
+:link: reasoning-with-transformers/07_budget_forcing.ipynb
+Control how long the model "thinks"
+:::
+
+:::{grid-item-card} GRPO Training
+:link: reasoning-with-transformers/08_grpo.ipynb
+RL for reasoning without a critic
+:::
+
+:::{grid-item-card} Reasoning Distillation
+:link: reasoning-with-transformers/09_distillation.ipynb
+Transfer reasoning to smaller models
+:::
+::::
