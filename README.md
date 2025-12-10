@@ -56,6 +56,20 @@ Learn how AI generates images from text prompts. This section builds from flow m
 - Text Conditioning — CLIP embeddings, cross-attention
 - Latent Diffusion — VAE compression, scaling to larger images
 
+### Reasoning with Transformers
+
+Explore how models can "think" before answering. This section covers techniques from simple prompting to training your own reasoning model.
+
+- Chain-of-Thought — Prompting models to show their work
+- Self-Consistency — Sampling multiple chains, majority voting
+- Tree of Thoughts — Exploring and pruning reasoning paths
+- Process Reward Models — Scoring individual reasoning steps
+- Best-of-N Sampling — Using verification to select best solutions
+- Monte Carlo Tree Search — Search algorithms for reasoning
+- Budget Forcing — Controlling reasoning length with "Wait" tokens
+- GRPO — RL without a critic (DeepSeek's approach)
+- Distillation — Transferring reasoning to smaller models
+
 ## Philosophy
 
 These materials follow a simple principle: **the best way to understand something is to build it yourself**.
@@ -118,13 +132,14 @@ npx myst build --html
 
 ```
 intro-to-transformers/
-├── understanding-gradients/    # Hand-calculated forward & backward pass
-├── building-a-transformer/     # PyTorch implementation from scratch
-├── fine-tuning-a-transformer/  # SFT, RLHF, DPO techniques
-├── from-noise-to-images/       # Diffusion models and flow matching
-├── intro.md                    # Book landing page
-├── myst.yml                    # MyST configuration
-└── pyproject.toml              # Python dependencies
+├── understanding-gradients/      # Hand-calculated forward & backward pass
+├── building-a-transformer/       # PyTorch implementation from scratch
+├── fine-tuning-a-transformer/    # SFT, RLHF, DPO techniques
+├── from-noise-to-images/         # Diffusion models and flow matching
+├── reasoning-with-transformers/  # CoT, MCTS, GRPO, distillation
+├── intro.md                      # Book landing page
+├── myst.yml                      # MyST configuration
+└── pyproject.toml                # Python dependencies
 ```
 
 ## Dependencies
