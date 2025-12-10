@@ -48,4 +48,4 @@ Four main learning paths, each in its own directory:
 
 ### Writing Style
 
-See STYLEGUIDE.md for the author's voice: conversational, technically fluent, story-driven. Key patterns include short punchy sentences, parenthetical asides, and teaching through narrative.
+See https://github.com/zhubert/styleguide for the author's voice: conversational, technically fluent, story-driven. Key patterns include short punchy sentences, parenthetical asides, and teaching through narrative.

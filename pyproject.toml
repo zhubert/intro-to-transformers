@@ -16,6 +16,7 @@ dependencies = [
     "bitsandbytes>=0.43.0",
     "accelerate>=0.25.0",
     "peft>=0.7.0",
+    "scipy>=1.11.0",
 ]
 
 [tool.uv.sources]

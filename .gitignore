@@ -18,6 +18,7 @@ build/
 .venv/
 venv/
 .env
+.envrc
 .ipynb_checkpoints/
 my_finetuned_model/
 sft_output/
