@@ -46,16 +46,6 @@ Take a pretrained model and adapt it for specific tasks using modern techniques.
 - **DPO** — Direct Preference Optimization as an alternative to RLHF
 - **Advanced Topics** — Memory optimization, hyperparameter tuning, evaluation metrics, common pitfalls
 
-### From Noise to Images
-
-Learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model.
-
-- Flow Matching — Velocity fields, noise-to-data paths
-- Diffusion Transformer — Patchifying images, attention for generation
-- Class Conditioning — Classifier-free guidance (CFG)
-- Text Conditioning — CLIP embeddings, cross-attention
-- Latent Diffusion — VAE compression, scaling to larger images
-
 ### Reasoning with Transformers
 
 Explore how models can "think" before answering. This section covers techniques from simple prompting to training your own reasoning model.
@@ -69,6 +59,16 @@ Explore how models can "think" before answering. This section covers techniques 
 - Budget Forcing — Controlling reasoning length with "Wait" tokens
 - GRPO — RL without a critic (DeepSeek's approach)
 - Distillation — Transferring reasoning to smaller models
+
+### From Noise to Images
+
+Learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model.
+
+- Flow Matching — Velocity fields, noise-to-data paths
+- Diffusion Transformer — Patchifying images, attention for generation
+- Class Conditioning — Classifier-free guidance (CFG)
+- Text Conditioning — CLIP embeddings, cross-attention
+- Latent Diffusion — VAE compression, scaling to larger images
 
 ## Philosophy
 

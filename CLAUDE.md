@@ -30,7 +30,7 @@ jupyter notebook                  # Start Jupyter server
 
 ### Content Sections
 
-Four main learning paths, each in its own directory:
+Five main learning paths, each in its own directory:
 
 1. **understanding-gradients/** — Hand-calculated transformer forward/backward pass using pure Python (no NumPy/PyTorch). Notebooks 00-10 cover tokenization through AdamW optimization.
 
@@ -38,7 +38,9 @@ Four main learning paths, each in its own directory:
 
 3. **fine-tuning-a-transformer/** — Post-training techniques. Notebooks 00-25 cover SFT (instruction formatting, loss masking, LoRA), reward modeling, RLHF (PPO, KL penalty), and DPO.
 
-4. **from-noise-to-images/** — Diffusion models. Notebooks 01-05 cover flow matching, DiT architecture, conditioning, and latent diffusion.
+4. **reasoning-with-transformers/** — Reasoning techniques. Notebooks 00-09 cover chain-of-thought, tree search, process reward models, MCTS, GRPO, and distillation.
+
+5. **from-noise-to-images/** — Diffusion models. Notebooks 01-05 cover flow matching, DiT architecture, conditioning, and latent diffusion.
 
 ### Book Configuration
 

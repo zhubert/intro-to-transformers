@@ -117,18 +117,6 @@ project:
           title: "Common Pitfalls"
         - file: fine-tuning-a-transformer/25_try_it.ipynb
           title: "Try It Yourself"
-    - title: "From Noise to Images"
-      children:
-        - file: from-noise-to-images/01_flow_matching_basics.ipynb
-          title: "Flow Matching"
-        - file: from-noise-to-images/02_diffusion_transformer.ipynb
-          title: "Diffusion Transformer"
-        - file: from-noise-to-images/03_class_conditioning.ipynb
-          title: "Class Conditioning"
-        - file: from-noise-to-images/04_text_conditioning.ipynb
-          title: "Text Conditioning"
-        - file: from-noise-to-images/05_latent_diffusion.ipynb
-          title: "Latent Diffusion"
     - title: "Reasoning with Transformers"
       children:
         - file: reasoning-with-transformers/00_introduction.ipynb
@@ -151,6 +139,18 @@ project:
           title: "GRPO Training"
         - file: reasoning-with-transformers/09_distillation.ipynb
           title: "Reasoning Distillation"
+    - title: "From Noise to Images"
+      children:
+        - file: from-noise-to-images/01_flow_matching_basics.ipynb
+          title: "Flow Matching"
+        - file: from-noise-to-images/02_diffusion_transformer.ipynb
+          title: "Diffusion Transformer"
+        - file: from-noise-to-images/03_class_conditioning.ipynb
+          title: "Class Conditioning"
+        - file: from-noise-to-images/04_text_conditioning.ipynb
+          title: "Text Conditioning"
+        - file: from-noise-to-images/05_latent_diffusion.ipynb
+          title: "Latent Diffusion"
 site:
   template: book-theme
   parts:

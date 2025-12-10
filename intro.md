@@ -132,40 +132,6 @@ Direct preference optimization without RL
 
 ---
 
-### From Noise to Images
-
-But what if we aren't generating text? Here we will learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model (you'll know what that means later).
-
-::::{grid} 1 1 2 2
-
-:::{grid-item-card} Flow Matching
-:link: from-noise-to-images/01_flow_matching_basics.ipynb
-Velocity fields, noise-to-data paths
-:::
-
-:::{grid-item-card} Diffusion Transformer
-:link: from-noise-to-images/02_diffusion_transformer.ipynb
-Patchifying images, attention for generation
-:::
-
-:::{grid-item-card} Class Conditioning
-:link: from-noise-to-images/03_class_conditioning.ipynb
-Classifier-free guidance (CFG)
-:::
-
-:::{grid-item-card} Text Conditioning
-:link: from-noise-to-images/04_text_conditioning.ipynb
-CLIP embeddings, cross-attention
-:::
-
-:::{grid-item-card} Latent Diffusion
-:link: from-noise-to-images/05_latent_diffusion.ipynb
-VAE compression, scaling to larger images
-:::
-::::
-
----
-
 ### Reasoning with Transformers
 
 How do models like o1 and DeepSeek-R1 "think"? This section covers the techniques that make transformers reason: from simple prompting tricks to full reinforcement learning pipelines. We'll build chain-of-thought, tree search, and train our own reasoning models.
@@ -215,5 +181,39 @@ RL for reasoning without a critic
 :::{grid-item-card} Reasoning Distillation
 :link: reasoning-with-transformers/09_distillation.ipynb
 Transfer reasoning to smaller models
+:::
+::::
+
+---
+
+### From Noise to Images
+
+But what if we aren't generating text? Here we will learn how AI generates images from text prompts. This section builds from flow matching fundamentals to a working latent diffusion model (you'll know what that means later).
+
+::::{grid} 1 1 2 2
+
+:::{grid-item-card} Flow Matching
+:link: from-noise-to-images/01_flow_matching_basics.ipynb
+Velocity fields, noise-to-data paths
+:::
+
+:::{grid-item-card} Diffusion Transformer
+:link: from-noise-to-images/02_diffusion_transformer.ipynb
+Patchifying images, attention for generation
+:::
+
+:::{grid-item-card} Class Conditioning
+:link: from-noise-to-images/03_class_conditioning.ipynb
+Classifier-free guidance (CFG)
+:::
+
+:::{grid-item-card} Text Conditioning
+:link: from-noise-to-images/04_text_conditioning.ipynb
+CLIP embeddings, cross-attention
+:::
+
+:::{grid-item-card} Latent Diffusion
+:link: from-noise-to-images/05_latent_diffusion.ipynb
+VAE compression, scaling to larger images
 :::
 ::::
