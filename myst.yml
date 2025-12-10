@@ -137,3 +137,4 @@ site:
     logo_dark: intro.png
     favicon: favicon.ico
     style: ./custom.css
+    hide_myst_branding: true
