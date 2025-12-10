@@ -129,6 +129,28 @@ project:
           title: "Text Conditioning"
         - file: from-noise-to-images/05_latent_diffusion.ipynb
           title: "Latent Diffusion"
+    - title: "Reasoning with Transformers"
+      children:
+        - file: reasoning-with-transformers/00_introduction.ipynb
+          title: "Introduction"
+        - file: reasoning-with-transformers/01_chain_of_thought.ipynb
+          title: "Chain-of-Thought"
+        - file: reasoning-with-transformers/02_self_consistency.ipynb
+          title: "Self-Consistency"
+        - file: reasoning-with-transformers/03_tree_of_thoughts.ipynb
+          title: "Tree of Thoughts"
+        - file: reasoning-with-transformers/04_process_reward_model.ipynb
+          title: "Process Reward Models"
+        - file: reasoning-with-transformers/05_best_of_n.ipynb
+          title: "Best-of-N Verification"
+        - file: reasoning-with-transformers/06_mcts.ipynb
+          title: "Monte Carlo Tree Search"
+        - file: reasoning-with-transformers/07_budget_forcing.ipynb
+          title: "Budget Forcing"
+        - file: reasoning-with-transformers/08_grpo.ipynb
+          title: "GRPO Training"
+        - file: reasoning-with-transformers/09_distillation.ipynb
+          title: "Reasoning Distillation"
 site:
   template: book-theme
   parts:
