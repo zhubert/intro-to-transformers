@@ -6,10 +6,6 @@
 This book teaches you how fairly modern AI systems work by building miniature versions of them yourself. I don't want to hand wave anything, because I'm learning this as we go too. Real math, straightforward code...that's the goal.
 :::
 
-## What You'll Find Here
-
----
-
 ### Understanding Gradients
 
 Using only basic Python (no NumPy, no PyTorch), we'll compute every matrix multiplication, every activation function, every gradient. If you want to be pragmatic, you can skip this one and go to the next section. But if you want to reach for glory which is meticulous mathematical matrix multiplications, then get ready to calculate!

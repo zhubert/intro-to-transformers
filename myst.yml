@@ -156,6 +156,7 @@ site:
     primary_sidebar_footer: ./empty.md
   options:
     base_url: /intro-to-transformers
+    hide_search: true
     folders: true
     logo: intro.png
     logo_dark: intro.png
