@@ -22,6 +22,7 @@ venv/
 .ipynb_checkpoints/
 my_finetuned_model/
 sft_output/
+.playwright-mcp/
 
 # Node
 node_modules/
