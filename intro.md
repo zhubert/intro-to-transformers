@@ -1,8 +1,6 @@
 # An Introduction to Transformers
 
 :::{pull-quote}
-**Understanding Transformers from the Inside Out**
-
 This book teaches you how fairly modern AI systems work by building miniature versions of them yourself. I don't want to hand wave anything, because I'm learning this as we go too. Real math, straightforward code...that's the goal.
 :::
 
