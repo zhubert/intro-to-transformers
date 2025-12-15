@@ -1,7 +1,7 @@
 # An Introduction to Transformers
 
 :::{pull-quote}
-This book teaches you how fairly modern AI systems work by building miniature versions of them yourself. I don't want to hand wave anything, because I'm learning this as we go too. Real math, straightforward code...that's the goal.
+This book walks through how fairly modern AI systems work by building miniature versions of them. As one of the authors (that is still learning this subject myself), I want this to be as educational as possible. Together we will go from a deep dive into the math (to build some fundamental awareness), to building, fine-tuning, and reasoning with transformers. Finally we will cap it off with a fun excursus into image generation.
 :::
 
 ### Understanding Gradients
