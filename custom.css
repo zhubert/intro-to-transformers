@@ -52,3 +52,61 @@ article hr {
 .dark .grid-item-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+/* Link accent color */
+article a:not(.grid-item-card) {
+  color: #0ea5e9;
+  transition: color 0.2s ease;
+}
+
+article a:not(.grid-item-card):hover {
+  color: #0284c7;
+}
+
+.dark article a:not(.grid-item-card) {
+  color: #38bdf8;
+}
+
+.dark article a:not(.grid-item-card):hover {
+  color: #0ea5e9;
+}
+
+/* Card hover border accent */
+.grid-item-card:hover {
+  border-color: #0ea5e9;
+}
+
+.dark .grid-item-card:hover {
+  border-color: #38bdf8;
+}
+
+/* Inline code accent */
+article code:not(pre code) {
+  border-left: 2px solid #0ea5e9;
+  padding-left: 0.5em;
+}
+
+.dark article code:not(pre code) {
+  border-left-color: #38bdf8;
+}
+
+/* Pull quote accent */
+.pull-quote {
+  border-left: 4px solid #0ea5e9;
+  padding-left: 1.5rem;
+}
+
+.dark .pull-quote {
+  border-left-color: #38bdf8;
+}
+
+/* Section heading accent (h3) */
+article h3 {
+  border-bottom: 2px solid #0ea5e9;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.dark article h3 {
+  border-bottom-color: #38bdf8;
+}
