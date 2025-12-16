@@ -21,7 +21,7 @@
 .myst-header-title {
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #0ea5e9 0%, #10b981 100%);
+  background: linear-gradient(135deg, #0284c7 0%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,12 +55,12 @@ article hr {
 
 /* Link accent color */
 article a:not(.grid-item-card) {
-  color: #0ea5e9;
+  color: #0284c7;
   transition: color 0.2s ease;
 }
 
 article a:not(.grid-item-card):hover {
-  color: #0284c7;
+  color: #0369a1;
 }
 
 .dark article a:not(.grid-item-card) {
@@ -73,7 +73,7 @@ article a:not(.grid-item-card):hover {
 
 /* Card hover border accent */
 .grid-item-card:hover {
-  border-color: #0ea5e9;
+  border-color: #0284c7;
 }
 
 .dark .grid-item-card:hover {
@@ -82,7 +82,7 @@ article a:not(.grid-item-card):hover {
 
 /* Inline code accent */
 article code:not(pre code) {
-  border-left: 2px solid #0ea5e9;
+  border-left: 2px solid #0284c7;
   padding-left: 0.5em;
 }
 
@@ -90,19 +90,24 @@ article code:not(pre code) {
   border-left-color: #38bdf8;
 }
 
-/* Pull quote accent */
+/* Blockquote and pull quote accent - single bar only */
+article blockquote,
 .pull-quote {
-  border-left: 4px solid #0ea5e9;
+  border-left: 4px solid #0284c7 !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
   padding-left: 1.5rem;
 }
 
+.dark article blockquote,
 .dark .pull-quote {
-  border-left-color: #38bdf8;
+  border-left-color: #38bdf8 !important;
 }
 
 /* Section heading accent (h3) */
 article h3 {
-  border-bottom: 2px solid #0ea5e9;
+  border-bottom: 2px solid #0284c7;
   padding-bottom: 0.5rem;
   display: inline-block;
 }
