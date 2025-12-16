@@ -160,4 +160,4 @@ site:
     logo_dark: intro.png
     favicon: favicon.ico
     style: ./custom.css
-    primary_color: '#0ea5e9'
+    primary_color: '#0284c7'
