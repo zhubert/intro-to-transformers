@@ -5,8 +5,6 @@ project:
     - name: "Zack Hubert"
       url: "https://www.zhubert.com"
       github: "zhubert"
-    - name: "Claude Code"
-      url: "https://www.claude.com/product/claude-code"
   exclude:
     - .venv
     - _build
