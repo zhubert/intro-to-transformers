@@ -80,13 +80,13 @@ article a:not(.grid-item-card):hover {
   border-color: #38bdf8;
 }
 
-/* Inline code accent */
-article code:not(pre code) {
+/* Inline code accent - exclude code blocks in paragraphs */
+article code:not(pre code):not(p > code) {
   border-left: 2px solid #0284c7;
   padding-left: 0.5em;
 }
 
-.dark article code:not(pre code) {
+.dark article code:not(pre code):not(p > code) {
   border-left-color: #38bdf8;
 }
 
@@ -103,6 +103,12 @@ article blockquote,
 .dark article blockquote,
 .dark .pull-quote {
   border-left-color: #38bdf8 !important;
+}
+
+/* Remove border from figures containing blockquotes/pull-quotes to avoid double bars */
+figure:has(blockquote),
+figure:has(.pull-quote) {
+  border: none !important;
 }
 
 /* Section heading accent (h3) */
