@@ -16,3 +16,39 @@
 .myst-fm-block-header {
   display: none !important;
 }
+
+/* Custom header styling */
+.myst-header-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #0ea5e9 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Visual section separators */
+article hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #e5e7eb 20%, #e5e7eb 80%, transparent);
+  margin: 3rem 0;
+}
+
+.dark article hr {
+  background: linear-gradient(90deg, transparent, #404040 20%, #404040 80%, transparent);
+}
+
+/* Card hover enhancement */
+.grid-item-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-item-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dark .grid-item-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
