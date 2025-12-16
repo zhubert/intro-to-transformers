@@ -91,7 +91,7 @@ article code:not(pre code):not(p > code) {
 }
 
 /* Blockquote and pull quote accent - single bar only */
-article blockquote,
+article blockquote:not(.pull-quote blockquote),
 .pull-quote {
   border-left: 4px solid #0284c7 !important;
   border-right: none !important;
@@ -100,9 +100,15 @@ article blockquote,
   padding-left: 1.5rem;
 }
 
-.dark article blockquote,
+.dark article blockquote:not(.pull-quote blockquote),
 .dark .pull-quote {
   border-left-color: #38bdf8 !important;
+}
+
+/* Remove border from blockquotes inside pull-quote containers to avoid double bars */
+.pull-quote blockquote {
+  border: none !important;
+  padding-left: 0 !important;
 }
 
 /* Remove border from figures containing blockquotes/pull-quotes to avoid double bars */
