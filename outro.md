@@ -1,3 +1,8 @@
+---
+description: You've built transformers from scratch, fine-tuned them, taught them to reason, and generated images. Here's what comes next in AI and machine learning.
+thumbnail: /intro.png
+---
+
 # The Journey Continues
 
 When I started writing this, I thought I'd explain transformers. Maybe build a few models. Call it a day.

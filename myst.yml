@@ -1,6 +1,8 @@
 version: 1
 project:
   title: "An Introduction to Transformers"
+  description: "Learn how transformers and diffusion models work through hands-on implementation. From gradients to GPT-style models, fine-tuning, reasoning, and image generation."
+  thumbnail: intro.png
   authors:
     - name: "Zack Hubert"
       url: "https://www.zhubert.com"
@@ -153,6 +155,7 @@ site:
   parts:
     primary_sidebar_footer: ./empty.md
   options:
+    url: https://www.zhubert.com/intro-to-transformers
     base_url: /intro-to-transformers
     hide_search: true
     folders: true
