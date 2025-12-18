@@ -21,7 +21,7 @@
 .myst-header-title {
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #2d5f3f 0%, #10b981 100%);
+  background: linear-gradient(135deg, #dc3c22 0%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,12 +55,12 @@ article hr {
 
 /* Link accent color */
 article a:not(.grid-item-card) {
-  color: #2d5f3f;
+  color: #dc3c22;
   transition: color 0.2s ease;
 }
 
 article a:not(.grid-item-card):hover {
-  color: #1e3f2a;
+  color: #a82f1a;
 }
 
 .dark article a:not(.grid-item-card) {
@@ -73,7 +73,7 @@ article a:not(.grid-item-card):hover {
 
 /* Card hover border accent */
 .grid-item-card:hover {
-  border-color: #2d5f3f;
+  border-color: #dc3c22;
 }
 
 .dark .grid-item-card:hover {
@@ -82,7 +82,7 @@ article a:not(.grid-item-card):hover {
 
 /* Inline code accent - exclude code blocks in paragraphs */
 article code:not(pre code):not(p > code) {
-  border-left: 2px solid #2d5f3f;
+  border-left: 2px solid #dc3c22;
   padding-left: 0.5em;
 }
 
@@ -93,7 +93,7 @@ article code:not(pre code):not(p > code) {
 /* Blockquote and pull quote accent - single bar only */
 article blockquote:not(.pull-quote blockquote),
 .pull-quote {
-  border-left: 4px solid #2d5f3f !important;
+  border-left: 4px solid #dc3c22 !important;
   border-right: none !important;
   border-top: none !important;
   border-bottom: none !important;
@@ -119,7 +119,7 @@ figure:has(.pull-quote) {
 
 /* Section heading accent (h3) */
 article h3 {
-  border-bottom: 2px solid #2d5f3f;
+  border-bottom: 2px solid #dc3c22;
   padding-bottom: 0.5rem;
   display: inline-block;
 }
@@ -145,7 +145,7 @@ aside nav a {
 .toc-level-2 > a:hover,
 nav .toc a:hover,
 aside nav a:hover {
-  color: #2d5f3f !important;
+  color: #dc3c22 !important;
 }
 
 .dark .toc-level-1 > a:hover,
@@ -162,9 +162,9 @@ nav .toc a[aria-current="page"],
 aside nav a[aria-current="page"],
 nav a.active,
 .toc a.active {
-  color: #2d5f3f !important;
-  background-color: rgba(45, 95, 63, 0.1) !important;
-  border-left-color: #2d5f3f !important;
+  color: #dc3c22 !important;
+  background-color: rgba(220, 60, 34, 0.1) !important;
+  border-left-color: #dc3c22 !important;
 }
 
 .dark .toc-level-1 > a[aria-current="page"],
@@ -189,7 +189,7 @@ aside span[class*="text-blue"],
 .text-primary,
 nav a.text-primary,
 aside a.text-primary {
-  color: #2d5f3f !important;
+  color: #dc3c22 !important;
 }
 
 .dark nav a[class*="text-blue"],
@@ -206,7 +206,7 @@ aside a.text-primary {
 
 /* TOC expand/collapse icons */
 nav button:hover {
-  color: #2d5f3f !important;
+  color: #dc3c22 !important;
 }
 
 .dark nav button:hover {
