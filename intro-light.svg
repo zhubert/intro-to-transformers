@@ -6,9 +6,6 @@
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="50" height="50" fill="#ffffff" rx="6"/>
-
   <!-- 3x3 grid with gradient and varying opacity -->
   <!-- Top row -->
   <rect x="9" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
