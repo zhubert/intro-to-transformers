@@ -160,7 +160,7 @@ site:
     hide_search: true
     folders: true
     logo: intro.png
-    logo_dark: intro.png
+    logo_dark: intro-dark.png
     favicon: favicon.ico
     style: ./custom.css
     primary_color: '#2d5f3f'
