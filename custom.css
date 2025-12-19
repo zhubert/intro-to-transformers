@@ -1,3 +1,29 @@
+/* Hide the dark/light mode toggle button - rely on system preference only */
+/* MyST book-theme places the theme toggle in the header actions area */
+/* Targeting various possible implementations of the theme toggle */
+button[aria-label*="dark" i],
+button[aria-label*="light" i],
+button[aria-label*="theme" i],
+button[title*="dark" i],
+button[title*="light" i],
+button[title*="theme" i],
+.theme-toggle,
+.dark-mode-toggle,
+.color-mode-toggle,
+/* Target the MyST theme toggle by its location in the header */
+header button[class*="theme"],
+header button[class*="dark"],
+header button[class*="mode"],
+/* Target buttons with moon/sun icons commonly used for theme toggles */
+button svg[class*="moon" i],
+button svg[class*="sun" i],
+button:has(svg[class*="moon" i]),
+button:has(svg[class*="sun" i]),
+/* Fallback: target buttons in the header navigation area that might be the toggle */
+nav.myst-header button:not([aria-label*="menu" i]):not([aria-label*="search" i]) {
+  display: none !important;
+}
+
 /* Fix search box blue tint in dark mode */
 .dark .myst-search-bar {
   background-color: #262626 !important;
