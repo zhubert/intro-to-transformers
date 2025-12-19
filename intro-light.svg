@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc3c22"/>
+      <stop offset="100%" stop-color="#fef7ed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="50" height="50" fill="#ffffff" rx="6"/>
+
+  <!-- 3x3 grid with gradient and varying opacity -->
+  <!-- Top row -->
+  <rect x="9" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+  <rect x="21" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.6"/>
+  <rect x="33" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.3"/>
+
+  <!-- Middle row -->
+  <rect x="9" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.5"/>
+  <rect x="21" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+  <rect x="33" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.5"/>
+
+  <!-- Bottom row -->
+  <rect x="9" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.3"/>
+  <rect x="21" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.6"/>
+  <rect x="33" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+</svg>
