@@ -164,3 +164,5 @@ site:
     favicon: favicon.ico
     style: ./custom.css
     primary_color: '#2d5f3f'
+    head:
+      - '<script src="./custom-theme.js"></script>'
