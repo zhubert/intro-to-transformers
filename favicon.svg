@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc3c22"/>
+      <stop offset="100%" stop-color="#fef7ed"/>
+    </linearGradient>
+    <linearGradient id="grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc857"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
+    </linearGradient>
+    <style>
+      .light-mode { display: block; }
+      .dark-mode { display: none; }
+      @media (prefers-color-scheme: dark) {
+        .light-mode { display: none; }
+        .dark-mode { display: block; }
+      }
+    </style>
+  </defs>
+
+  <!-- Light mode version -->
+  <g class="light-mode">
+    <!-- Top row -->
+    <rect x="9" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+    <rect x="21" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.6"/>
+    <rect x="33" y="9" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.3"/>
+    <!-- Middle row -->
+    <rect x="9" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.5"/>
+    <rect x="21" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+    <rect x="33" y="21" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.5"/>
+    <!-- Bottom row -->
+    <rect x="9" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.3"/>
+    <rect x="21" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="0.6"/>
+    <rect x="33" y="33" width="8" height="8" rx="2" fill="url(#grad-light)" opacity="1"/>
+  </g>
+
+  <!-- Dark mode version -->
+  <g class="dark-mode">
+    <!-- Top row -->
+    <rect x="9" y="9" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="1"/>
+    <rect x="21" y="9" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.6"/>
+    <rect x="33" y="9" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.3"/>
+    <!-- Middle row -->
+    <rect x="9" y="21" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.5"/>
+    <rect x="21" y="21" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="1"/>
+    <rect x="33" y="21" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.5"/>
+    <!-- Bottom row -->
+    <rect x="9" y="33" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.3"/>
+    <rect x="21" y="33" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="0.6"/>
+    <rect x="33" y="33" width="8" height="8" rx="2" fill="url(#grad-dark)" opacity="1"/>
+  </g>
+</svg>
