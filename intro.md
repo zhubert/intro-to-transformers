@@ -1,3 +1,8 @@
+---
+description: Learn how transformers and diffusion models work through hands-on implementation. From gradients to GPT-style models, fine-tuning, reasoning, and image generation.
+thumbnail: /intro.png
+---
+
 # An Introduction to Transformers
 
 :::{pull-quote}
