@@ -238,3 +238,34 @@ nav button:hover {
 .dark nav button:hover {
   color: #ffc857 !important;
 }
+
+/* Home link container in sidebar footer */
+.home-link-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.home-link-container a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.home-link-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-link-text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.dark .home-link-text {
+  color: #999;
+}

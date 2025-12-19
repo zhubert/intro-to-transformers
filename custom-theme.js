@@ -35,3 +35,19 @@
     return originalSetItem.apply(this, arguments);
   };
 })();
+
+// Add hover effects for home link avatar
+document.addEventListener('DOMContentLoaded', function() {
+  const avatar = document.querySelector('.home-link-avatar');
+  if (avatar) {
+    avatar.addEventListener('mouseenter', function() {
+      this.style.transform = 'scale(1.05)';
+      this.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+    });
+
+    avatar.addEventListener('mouseleave', function() {
+      this.style.transform = 'scale(1)';
+      this.style.boxShadow = 'none';
+    });
+  }
+});
