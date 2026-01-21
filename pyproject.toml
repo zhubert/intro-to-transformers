@@ -17,6 +17,7 @@ dependencies = [
     "accelerate",
     "peft",
     "scipy",
+    "hf_xet",
 ]
 
 [tool.uv]
