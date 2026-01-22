@@ -17,6 +17,16 @@ npx myst start
 npx myst build --html
 ```
 
+## Publishing
+
+Publishing is fully automated via GitHub Actions. No local build required.
+
+1. Commit your changes
+2. Push to `main`
+3. The `deploy-book.yml` workflow automatically builds and deploys to GitHub Pages
+
+You can also trigger a deploy manually from the Actions tab using the "workflow_dispatch" option.
+
 ## Project Structure
 
 ```
