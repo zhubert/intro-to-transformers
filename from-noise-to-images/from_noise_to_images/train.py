@@ -91,7 +91,7 @@ class Trainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
@@ -233,7 +233,7 @@ class ConditionalTrainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
@@ -375,7 +375,7 @@ class VAETrainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
@@ -523,7 +523,7 @@ class LatentDiffusionTrainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
@@ -656,7 +656,7 @@ class LatentConditionalTrainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
@@ -862,7 +862,7 @@ class TextConditionalTrainer:
         pbar = tqdm(
             self.dataloader,
             desc=f"Epoch {epoch + 1}/{total_epochs}",
-            leave=True
+            leave=False
         )
 
         for batch in pbar:
